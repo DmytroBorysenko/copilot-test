@@ -1,0 +1,23 @@
+.post-item {
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #ccc;
+  .post-content {
+    h3 {
+      font-size: 1.5rem;
+    }
+    p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      padding: 0 10px;
+    }
+  }
+  .acttion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+}

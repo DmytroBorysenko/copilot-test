@@ -1,0 +1,11 @@
+<div class="post-item">
+  <div class="post-content">
+    <h3> {{ post.title }}</h3>
+    <p> {{ post.body }}</p>
+  </div>
+  <div class="acttion">
+    <button mat-raised-button color="primary" (click)="onEditPost(post)">Edit</button>
+    <button mat-raised-button color="warn" (click)="onDeletePost(post)">Delete</button>
+  </div>
+
+</div>
